@@ -35,7 +35,7 @@ We are creating a world where anyone, anywhere may express his or her beliefs, n
 
 ## Inline elements
 
-**Bold**, {{Ruby:ルビ}}, *Italic*, ~~Strikethrough~~, [Link](https://www.imalan.cn)[^Home page for AlanDecode]。
+**Bold**, {{Ruby:ルビ}}, *Italic*, ~~Strikethrough~~, [Link](https://www.imalan.cn)[^None]。
 
 ## Blockquote and nested blockquote
 
