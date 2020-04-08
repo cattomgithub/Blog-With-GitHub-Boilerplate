@@ -19,7 +19,7 @@
     <script>
         var ExSearchConfig = {
             root: "",
-            api: "https://cdn.jsdelivr.net/gh/cattomgithub/Blog@gh-pages/93abade890d2cc6819e97de9ec00e824.json"
+            api: "https://cdn.jsdelivr.net/gh/cattomgithub/Blog@gh-pages/abc461de40f8619106122654a92efad9.json"
         }
     </script>
     
@@ -82,7 +82,15 @@
 <p>这个博客目前是利用 GitHub Pages 托管静态网页，GitHub Action 自动构建、发布文章。</p>
 <p>MarkDown 还是很有意思的。</p>
 <p>以后可能会考虑将<a href="https://cattom.site">原博客</a>里的文章搬移到这里。</p>
-
+<section id="ga-external_links" class="ga-section" data-title="Links">
+    <ul>
+        {% for item in config.external_links %}
+        <li>
+            <a class="ga-highlight" target="_blank" href="{{ fp(item['url']) }}">{{ fp(item['name']) }}</a>：{{ fp(item['brief']) }}
+        </li>
+        {% endfor %}
+    </ul>
+</section>
             </div>
         </article>
         
