@@ -87,9 +87,20 @@
         </article>
         
     </section>
-
     
+    {% block more_section %}
 
+    <section id="ga-external_links" class="ga-section" data-title="Links">
+        <ul>
+            {% for item in config.external_links %}
+            <li>
+                <a class="ga-highlight" target="_blank" href="{{ fp(item['url']) }}">{{ fp(item['name']) }}</a>：{{ fp(item['brief']) }}
+            </li>
+            {% endfor %}
+        </ul>
+    </section>
+    
+    {% endblock more_section %}
     
 
 </main>
