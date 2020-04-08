@@ -19,26 +19,3 @@ categories:
 MarkDown 还是很有意思的。
 
 以后可能会考虑将[原博客](https://cattom.site)里的文章搬移到这里。
-
-{% macro seo_title() %}{{ fp(config.site_name) }}{% endmacro %}
-{% block title %}{{ seo_title() }}{% endblock title %}
-{% block og_title %}{{ seo_title() }}{% endblock %}
-{% block og_description %}{{ fp(config.description) }}{% endblock %}
-{% block og_url %}{{ Router.gen_permalink('index', '', current_page) }}{% endblock %}
-{% block twitter_title %}{{ seo_title() }}{% endblock %}
-
-{% extends "includes/skeleton_archive.html" %}
-
-{% block more_section %}
-
-<section id="ga-external_links" class="ga-section" data-title="Links">
-    <ul>
-        {% for item in config.external_links %}
-        <li>
-            <a class="ga-highlight" target="_blank" href="{{ fp(item['url']) }}">{{ fp(item['name']) }}</a>：{{ fp(item['brief']) }}
-        </li>
-        {% endfor %}
-    </ul>
-</section>
-
-{% endblock more_section %}
