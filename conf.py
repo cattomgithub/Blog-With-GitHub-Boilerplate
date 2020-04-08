@@ -21,7 +21,7 @@ enable_jsdelivr = {
 
 # 站点设置
 site_name = "Cat Tom's Blog"
-site_logo = "${static_prefix}logo.jpg"
+site_logo = "${static_prefix}favicon.ico"
 site_build_date = "2020-04-07T00:00+08:00"
 author = "Cat Tom"
 email = "linweijie2015@gmail.com"
