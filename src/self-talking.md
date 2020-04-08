@@ -19,3 +19,13 @@ categories:
 MarkDown 还是很有意思的。
 
 以后可能会考虑将[原博客](https://cattom.site)里的文章搬移到这里。
+
+<section id="ga-external_links" class="ga-section" data-title="Links">
+    <ul>
+        {% for item in config.external_links %}
+        <li>
+            <a class="ga-highlight" target="_blank" href="{{ fp(item['url']) }}">{{ fp(item['name']) }}</a>：{{ fp(item['brief']) }}
+        </li>
+        {% endfor %}
+    </ul>
+</section>
