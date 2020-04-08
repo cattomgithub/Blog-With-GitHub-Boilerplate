@@ -3,7 +3,7 @@
 """
 
 # For Maverick
-site_prefix = "https://blog.cattom.space/"
+site_prefix = "/"
 source_dir = "../src/"
 build_dir = "../dist/"
 index_page_size = 10
@@ -16,7 +16,7 @@ template = {
 }
 enable_jsdelivr = {
     "enabled": True,
-    "repo": "cattomgithub/Blog-With-GitHub-Boilerplate@gh-pages"
+    "repo": "cattomgithub/Blog@gh-pages"
 }
 
 # 站点设置
