@@ -19,7 +19,7 @@
     <script>
         var ExSearchConfig = {
             root: "",
-            api: "https://cdn.jsdelivr.net/gh/cattomgithub/Blog@gh-pages/abc461de40f8619106122654a92efad9.json"
+            api: "https://cdn.jsdelivr.net/gh/cattomgithub/Blog@gh-pages/60f7d679076fa5c86a7163a2bba454fe.json"
         }
     </script>
     
@@ -81,7 +81,9 @@
 <p>最近看到<a href="https://blog.imalan.cn/">熊猫小A</a>大佬的<a href="https://blog.imalan.cn/archives/blog-with-github/">完全使用 GitHub 写博客</a>，而且还有范例仓库，便 fork 下来尝试一下。</p>
 <p>这个博客目前是利用 GitHub Pages 托管静态网页，GitHub Action 自动构建、发布文章。</p>
 <p>MarkDown 还是很有意思的。</p>
-<p>以后可能会考虑将<a href="https://cattom.site">原博客</a>里的文章搬移到这里。</p>
+<p>以后可能会考虑将<a href="https://cattom.site">原博客</a>里的文章搬移到这里。
+{% extends "includes/skeleton_archive.html" %}</p>
+<p>{% block more_section %}</p>
 <section id="ga-external_links" class="ga-section" data-title="Links">
     <ul>
         {% for item in config.external_links %}
@@ -90,7 +92,8 @@
         </li>
         {% endfor %}
     </ul>
-</section>
+</section><p>{% endblock more_section %}</p>
+
             </div>
         </article>
         
