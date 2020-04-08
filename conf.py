@@ -22,7 +22,7 @@ enable_jsdelivr = {
 # 站点设置
 site_name = "Cat Tom's Blog"
 site_logo = "${static_prefix}favicon.ico"
-site_build_date = "2020-04-07T00:00+08:00"
+site_build_date = "2020-04-07T00:00+00:00"
 author = "Cat Tom"
 email = "linweijie2015@gmail.com"
 author_homepage = "https://cattom.site"
@@ -31,14 +31,14 @@ key_words = ['Cat Tom', 'blog']
 language = 'zh-CN'
 external_links = [
     {
-        "name": "Maverick",
-        "url": "https://github.com/AlanDecode/Maverick",
-        "brief": "🏄‍ Go My Own Way."
+        "name": "Blog",
+        "url": "https://cattom.site",
+        "brief": "我的博客。"
     },
     {
-        "name": "三無計劃",
-        "url": "https://www.imalan.cn",
-        "brief": "熊猫小A的主页。"
+        "name": "Cat Tom's World",
+        "url": "https://index.cattom.site",
+        "brief": "我的主页。"
     }
 ]
 nav = [
@@ -60,20 +60,11 @@ nav = [
 ]
 
 social_links = [
-    {
-        "name": "Twitter",
-        "url": "https://twitter.com/AlanDecode",
-        "icon": "gi gi-twitter"
-    },
+   
     {
         "name": "GitHub",
-        "url": "https://github.com/AlanDecode",
+        "url": "https://github.com/cattomgithub",
         "icon": "gi gi-github"
-    },
-    {
-        "name": "Weibo",
-        "url": "https://weibo.com/5245109677/",
-        "icon": "gi gi-weibo"
     }
 ]
 
