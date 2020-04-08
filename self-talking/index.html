@@ -19,7 +19,7 @@
     <script>
         var ExSearchConfig = {
             root: "",
-            api: "https://cdn.jsdelivr.net/gh/cattomgithub/Blog@gh-pages/801cd524d311f65bfbdb7ee02634da8d.json"
+            api: "https://cdn.jsdelivr.net/gh/cattomgithub/Blog@gh-pages/93abade890d2cc6819e97de9ec00e824.json"
         }
     </script>
     
@@ -82,23 +82,6 @@
 <p>这个博客目前是利用 GitHub Pages 托管静态网页，GitHub Action 自动构建、发布文章。</p>
 <p>MarkDown 还是很有意思的。</p>
 <p>以后可能会考虑将<a href="https://cattom.site">原博客</a>里的文章搬移到这里。</p>
-<p>{% macro seo_title() %}{{ fp(config.site_name) }}{% endmacro %}
-{% block title %}{{ seo_title() }}{% endblock title %}
-{% block og_title %}{{ seo_title() }}{% endblock %}
-{% block og_description %}{{ fp(config.description) }}{% endblock %}
-{% block og_url %}{{ Router.gen_permalink('index', '', current_page) }}{% endblock %}
-{% block twitter_title %}{{ seo_title() }}{% endblock %}</p>
-<p>{% extends "includes/skeleton_archive.html" %}</p>
-<p>{% block more_section %}</p>
-<section id="ga-external_links" class="ga-section" data-title="Links">
-    <ul>
-        {% for item in config.external_links %}
-        <li>
-            <a class="ga-highlight" target="_blank" href="{{ fp(item['url']) }}">{{ fp(item['name']) }}</a>：{{ fp(item['brief']) }}
-        </li>
-        {% endfor %}
-    </ul>
-</section><p>{% endblock more_section %}</p>
 
             </div>
         </article>
