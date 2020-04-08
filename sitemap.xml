@@ -19,13 +19,6 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-    <loc>/archives/markdown/</loc>
-    <lastmod>2020-04-08</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-</url>
-
-<url>
     <loc>/archives/first-post/</loc>
     <lastmod>2020-04-07</lastmod>
     <changefreq>always</changefreq>
