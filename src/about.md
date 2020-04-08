@@ -2,21 +2,17 @@
 layout: page
 title: 关于
 slug: about
-date: 2017/06/28 17:26:00
+date: 2020-04-08 09:25
 status: publish
-author: AlanDecode
+author: Cat Tom
 categories: 
-  - Maverick
-  - Dev
-tags: 
-  - theme
+  - 随笔
 ---
 
-这里是我的个人博客，通过 GitHub 管理与构建。
+Edit from [Blog-With-GitHub-Boilerplate](https://github.com/AlanDecode/Blog-With-GitHub-Boilerplate).
 
+The site is hosted in `gh-pages` branch via GitHub Pages, powered by [Maverick](https://github.com/AlanDecode/Maverick).
 
-## Contact
+CI service is provided by [GitHub Actions](https://github.com/features/actions). CDN service is provided by [jsDelivr](https://www.jsdelivr.com/).
 
-Email: hi#imalan.cn (replace # with @)
-
-Telegram：[AlanDecode](https://t.me/alandecode)
+**Note:此项目为实验性项目。目前暂不确定会利用其作为主力进行写作。**
