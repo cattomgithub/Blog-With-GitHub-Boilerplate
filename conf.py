@@ -53,6 +53,16 @@ nav = [
         "target": "_self"
     },
     {
+        "name": "游戏",
+        "url": "${site_prefix}category/游戏/",
+        "target": "_self"
+    },
+    {
+        "name": "技术",
+        "url": "${site_prefix}category/技术/",
+        "target": "_self"
+    },
+    {
         "name": "归档",
         "url": "${site_prefix}archives/",
         "target": "_self"
