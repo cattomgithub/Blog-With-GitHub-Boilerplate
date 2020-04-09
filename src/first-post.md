@@ -7,6 +7,8 @@ status: publish
 author: Cat Tom
 categories: 
   - 随笔
+tags: 
+  - 第一篇文章
 excerpt: Hello World!
 ---
 
