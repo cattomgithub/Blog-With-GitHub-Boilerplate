@@ -25,14 +25,15 @@ site_logo = "${static_prefix}favicon.ico"
 site_build_date = "2020-04-07T00:00+00:00"
 author = "Cat Tom"
 email = "linweijie2015@gmail.com"
-author_homepage = "https://cattom.site"
+author_homepage = "/"
 description = "乌云退散 重见天日"
 key_words = ['Cat Tom', 'blog']
 language = 'zh-CN'
+background_img = "${static_prefix}bg.jpg"
 external_links = [
     {
         "name": "Cat Tom's World",
-        "url": "https://index.cattom.site",
+        "url": "https://cattom.space",
         "brief": "我的主页。"
     }
 ]
