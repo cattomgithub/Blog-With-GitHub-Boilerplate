@@ -31,11 +31,6 @@ key_words = ['Cat Tom', 'blog']
 language = 'zh-CN'
 external_links = [
     {
-        "name": "Blog",
-        "url": "https://cattom.site",
-        "brief": "我的博客。"
-    },
-    {
         "name": "Cat Tom's World",
         "url": "https://index.cattom.site",
         "brief": "我的主页。"
@@ -65,11 +60,6 @@ nav = [
     {
         "name": "技术",
         "url": "${site_prefix}category/技术/",
-        "target": "_self"
-    },
-    {
-        "name": "归档",
-        "url": "${site_prefix}archives/",
         "target": "_self"
     },
     {
