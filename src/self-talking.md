@@ -11,7 +11,10 @@ categories:
 
 # 2020 年
 
+## 4 月 9 日
+
 ## 4 月 8 日
+
 最近看到[熊猫小A](https://blog.imalan.cn/)大佬的[完全使用 GitHub 写博客](https://blog.imalan.cn/archives/blog-with-github/)，而且还有范例仓库，便 fork 下来尝试一下。
 
 这个博客目前是利用 GitHub Pages 托管静态网页，GitHub Action 自动构建、发布文章。
