@@ -19,7 +19,7 @@
     <script>
         var ExSearchConfig = {
             root: "",
-            api: "https://cdn.jsdelivr.net/gh/cattomgithub/Blog@gh-pages/663b1ac6026f38b10a4f409ec9f20362.json"
+            api: "https://cdn.jsdelivr.net/gh/cattomgithub/Blog@gh-pages/aa25e74952186b4caebf265be533ae5b.json"
         }
     </script>
     
@@ -30,7 +30,7 @@
 <meta property="og:description" content="2020 年" />
 <meta property="og:site_name" content="Cat Tom's Blog" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="/self-talking/" />
+<meta property="og:url" content="/daily/" />
 <meta property="og:image" content="" />
 <meta property="article:published_time" content="2020-04-08T11:50:00-00.00" />
 <meta name="twitter:title" content="碎碎念 - Cat Tom's Blog" />
@@ -80,6 +80,24 @@
             <div class="ga-content_body">
                 <h1>2020 年</h1>
 <h2>4 月 10 日</h2>
+<h3>奇 思 妙 想</h3>
+<p>昨天晚上睡觉前，想到博客都迁移到了 Github Pages 上，不如将部署在阿里云香港的其他网站也迁移到过来吧。</p>
+<p>这样子做的话，好处有：</p>
+<ul>
+<li>减轻阿里云香港的负担（毕竟它只是一个1C1G的小鸡啊）</li>
+<li>充分利用 Git 的版本控制特性</li>
+</ul>
+<p>但是早上起来，我突然间想起来 GitHub Pages 只支持静态网页...</p>
+<p><figure style="flex: 50.0" ><img width="240" height="240" src="https://cdn.jsdelivr.net/gh/cattomgithub/Blog@gh-pages/archives/assets/4e103b67d9695b0dd2271b83d94362bf.jpg" /></figure></p>
+<p>然后我检查了一下我的部署架构图，
+发现只有 <a href="https://start.cattom.space/">Start</a>、<a href="https://cattom.space/">Navigation</a>、<a href="https://music.cattom.space/">Music</a> 三个网站是静态网站，于是便一口气将他们全部丢上 GitHub 上了。</p>
+<p>丢上去之后都做了自定义域，但到启动 HTTPS 之后，
+访问的时候 Chrome 提示我证书错误？！</p>
+<p>然后，GitHub 提示我 DNS 解析失败...</p>
+<p><figure style="flex: 50.0" ><img width="220" height="220" src="https://cdn.jsdelivr.net/gh/cattomgithub/Blog@gh-pages/archives/assets/7ad732600df1af4ec869a6c3f4c451f2.jpg" /></figure></p>
+<p>然后我用 <code>dig</code> 检查了一下，发现解析正常。</p>
+<p>然后过了一阵子之后，就恢复正常了...</p>
+<p><figure style="flex: 50.0" ><img width="240" height="240" src="https://cdn.jsdelivr.net/gh/cattomgithub/Blog@gh-pages/archives/assets/688af2d066f505776fd58b30f4999c72.jpg" /></figure></p>
 <h2>4 月 8 日</h2>
 <p>最近看到<a href="https://blog.imalan.cn/">熊猫小A</a>大佬的<a href="https://blog.imalan.cn/archives/blog-with-github/">完全使用 GitHub 写博客</a>，而且还有范例仓库，便 fork 下来尝试一下。</p>
 <p>这个博客目前是利用 GitHub Pages 托管静态网页，GitHub Action 自动构建、发布文章。</p>
