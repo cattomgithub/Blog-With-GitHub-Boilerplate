@@ -45,7 +45,7 @@ nav = [
     },
     {
         "name": "碎碎念",
-        "url": "${site_prefix}self-talking/",
+        "url": "${site_prefix}daily/",
         "target": "_self"
     },
     {
