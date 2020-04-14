@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 第一篇文章
-slug: first-post
+title: 博客现已迁移至 GitHub Pages
+slug: migrate-to-gitHub-pages
 date: 2020-04-07 18:50
 status: publish
 author: Cat Tom
