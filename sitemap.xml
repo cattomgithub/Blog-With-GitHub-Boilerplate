@@ -6,7 +6,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
     <loc>/daily/</loc>
-    <lastmod>2020-04-08</lastmod>
+    <lastmod>2020-04-15</lastmod>
     <changefreq>always</changefreq>
     <priority>0.8</priority>
 </url>
@@ -20,7 +20,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
     <loc>/archives/migrate-to-gitHub-pages/</loc>
-    <lastmod>2020-04-07</lastmod>
+    <lastmod>2020-04-14</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
 </url>
