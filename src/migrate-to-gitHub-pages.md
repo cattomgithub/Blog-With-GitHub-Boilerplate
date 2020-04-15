@@ -2,7 +2,7 @@
 layout: post
 title: 博客现已迁移至 GitHub Pages
 slug: migrate-to-gitHub-pages
-date: 2020-04-07 18:50
+date: 2020-04-14 15:00
 status: publish
 author: Cat Tom
 categories: 
