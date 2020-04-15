@@ -15,9 +15,12 @@ excerpt: 本文会按照时间记录江心市的城建历程。
 ## 江心风景
 [photos]
 ![横跨南江的江心大桥](./images/cities-skylines-002.jpg)
+![从明德区回望同德区](./images/cities-skylines-005.jpg)
+[/photos]
+
+[photos]
 ![“三线合一”①](./images/cities-skylines-001.jpg)
 ![“三线合一”②](./images/cities-skylines-004.jpg)
-![从明德区回望同德区](./images/cities-skylines-005.jpg)
 [/photos]
 
 [photos]
@@ -29,6 +32,9 @@ excerpt: 本文会按照时间记录江心市的城建历程。
 [photos]
 ![同德-圭峰线与国际线](./images/cities-skylines-007.jpg)
 ![同德区铁路枢纽](./images/cities-skylines-008.jpg)
+[/photos]
+
+[photos]
 ![“东方明珠塔”](./images/cities-skylines-011.jpg)
 ![南江畔的同德区](./images/cities-skylines-012.jpg)
 [/photos]
@@ -37,6 +43,9 @@ excerpt: 本文会按照时间记录江心市的城建历程。
 ![凌晨的江心国际机场](./images/cities-skylines-013.jpg)
 ![黄昏的江心国际机场](./images/cities-skylines-014.jpg)
 ![深夜的江心国际机场](./images/cities-skylines-015.jpg)
+[/photos]
+
+[photos]
 ![从工业区回望市区](./images/cities-skylines-003.jpg)
 [/photos]
 
