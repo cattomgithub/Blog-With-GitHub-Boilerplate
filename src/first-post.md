@@ -13,7 +13,8 @@ excerpt: Hello World！
 ---
 好长一段时间没有使用WordPress了， Gutenberg 编辑器也得到了较大的改善。
 
-[notice]2020/04/15 Update:Gutenberg 其实真的真的不太好用，WordPress 也太臃肿了，当然好不好用各位见仁见智，具体请看我最近的[文章](https://blog.cattom.space/archives/migrate-to-gitHub-pages/)[/notice]
+[notice]2020/04/15 Update:
+Gutenberg 其实真的真的不太好用，WordPress 也太臃肿了，当然好不好用各位见仁见智，具体请看我最近的[文章](https://blog.cattom.space/archives/migrate-to-gitHub-pages/)[/notice]
 
 这次决定“复活”我的博客，一是最近萌生了写日记的想法，其次是想为未来的自己留下一点...生活的痕迹，
 
