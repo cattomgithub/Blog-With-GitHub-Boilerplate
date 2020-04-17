@@ -49,7 +49,7 @@ excerpt: 本文会按照时间记录江心市的城建历程。
 ![从工业区回望市区](./images/cities-skylines-003.jpg)
 [/photos]
 ## 简单介绍
-![从工业区回望市区](./images/cities-skylines-016.jpg)
+![从空中鸟瞰江心市](./images/cities-skylines-016.jpg)
 简单介绍一下江心市。
 
 北边是我市的处女地——同德区，同时也是我市的政治、交通中心。
