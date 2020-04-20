@@ -8,6 +8,7 @@ author: Cat Tom
 categories: 
   - 页面
 ---
+[notice]日记。不定期更新。[/notice]
 
 # 2020 年
 ## 4 月 20 日
