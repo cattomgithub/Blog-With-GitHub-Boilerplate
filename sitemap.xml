@@ -19,6 +19,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+    <loc>/archives/clip-coupons/</loc>
+    <lastmod>2020-04-21</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<url>
     <loc>/archives/migrate-to-gitHub-pages/</loc>
     <lastmod>2020-04-14</lastmod>
     <changefreq>always</changefreq>

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Cat Tom's Blog</title><link>/</link><description>乌云退散 重见天日</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://cdn.jsdelivr.net/gh/cattomgithub/Blog@gh-pages/favicon.ico</url><title>Cat Tom's Blog</title><link>/</link></image><language>zh-CN</language><lastBuildDate>Tue, 21 Apr 2020 14:09:14 +0806</lastBuildDate><pubDate>Tue, 21 Apr 2020 14:09:14 +0806</pubDate><item><title>第一篇文章</title><link>/archives/first-post/</link><description>&lt;p&gt;好长一段时间没有使用WordPress了， Gutenberg 编辑器也得到了较大的改善。&lt;/p&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Cat Tom's Blog</title><link>/</link><description>乌云退散 重见天日</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://cdn.jsdelivr.net/gh/cattomgithub/Blog@gh-pages/favicon.ico</url><title>Cat Tom's Blog</title><link>/</link></image><language>zh-CN</language><lastBuildDate>Wed, 22 Apr 2020 01:33:28 +0806</lastBuildDate><pubDate>Wed, 22 Apr 2020 01:33:28 +0806</pubDate><item><title>第一篇文章</title><link>/archives/first-post/</link><description>&lt;p&gt;好长一段时间没有使用WordPress了， Gutenberg 编辑器也得到了较大的改善。&lt;/p&gt;
 &lt;div class="notice"&gt;2020/04/15 Update:
 
 Gutenberg 其实真的真的不太好用，WordPress 也太臃肿了，当然好不好用各位见仁见智，具体请看我最近的&lt;a href="https://blog.cattom.space/archives/migrate-to-gitHub-pages/"&gt;文章&lt;/a&gt;&lt;/div&gt;&lt;p&gt;这次决定“复活”我的博客，一是最近萌生了写日记的想法，其次是想为未来的自己留下一点...生活的痕迹，&lt;/p&gt;
@@ -51,4 +51,65 @@ Gutenberg 其实真的真的不太好用，WordPress 也太臃肿了，当然好
 &lt;h2&gt;最近的计划&lt;/h2&gt;
 &lt;p&gt;&lt;figure style="flex: 88.88888888888889" &gt;&lt;img width="1920" height="1080" src="https://cdn.jsdelivr.net/gh/cattomgithub/Blog@gh-pages/archives/assets/3a8e7ebc0ab0e7aaaf66eb57dcb3c1dd.png" /&gt;&lt;/figure&gt;
 在 &lt;code&gt;In progress&lt;/code&gt; 内的是最近想写的。（当然可能会咕咕咕&lt;/p&gt;
-</description><author>linweijie2015@gmail.com (Cat Tom)</author><guid isPermaLink="true">/archives/migrate-to-gitHub-pages/</guid><pubDate>Tue, 14 Apr 2020 15:00:00 +0806</pubDate></item></channel></rss>
+</description><author>linweijie2015@gmail.com (Cat Tom)</author><guid isPermaLink="true">/archives/migrate-to-gitHub-pages/</guid><pubDate>Tue, 14 Apr 2020 15:00:00 +0806</pubDate></item><item><title>薅羊毛是个技术活</title><link>/archives/clip-coupons/</link><description>&lt;div class="notice"&gt;注意：本文具有时效性！&lt;/div&gt;&lt;p&gt;薅羊毛也不容易啊...&lt;/p&gt;
+&lt;h1&gt;先说结论&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;“造不如买，买不如租”&lt;/strong&gt;&lt;/p&gt;
+&lt;h2&gt;解释一下&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;“造不如买”&lt;/strong&gt;意思是，我自己用自己的资料和信用卡注册，还不如拿虚拟信用卡来注册。&lt;/p&gt;
+&lt;p&gt;毕竟我们只是薅羊毛，万一你用得太猛，不小心出费用了，咋办？&lt;/p&gt;
+&lt;p&gt;我曾经听说，有位老哥用自己的信用卡注册 AWS，不小心出费用了。&lt;/p&gt;
+&lt;p&gt;其实，出费用也不要紧。&lt;/p&gt;
+&lt;p&gt;可这位老哥不小心就搞出了&lt;strong&gt;几万美元&lt;/strong&gt;的费用😮，信用卡都透支了。&lt;/p&gt;
+&lt;p&gt;让我们换个角度，&lt;/p&gt;
+&lt;p&gt;如果你用自己的信用卡薅到了羊毛，&lt;/p&gt;
+&lt;p&gt;但有效期只有一年，那下一年你这个账号就废了...&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;“买不如租”&lt;/strong&gt;意思是，我拿虚拟信用卡注册，不如买成品账号。&lt;/p&gt;
+&lt;p&gt;虽然，目前市面上有专供注册各种账号的虚拟信用卡，&lt;/p&gt;
+&lt;p&gt;但，你仍然需要自己注册。可自己注册是需一定技巧的（下文我会提到），&lt;/p&gt;
+&lt;p&gt;只要一点点细节搞不好，你的账号就可能被风控了...😔&lt;/p&gt;
+&lt;p&gt;即使你成功注册，之后还是有可能被要求提交各种资料（其实还是被风控了&lt;/p&gt;
+&lt;p&gt;而成品账号基本上就没有以上提到的顾虑，只要不故意搞事，基本上都是可以正常使用&lt;/p&gt;
+&lt;h1&gt;目前各 IDC 的一些风控手段&lt;/h1&gt;
+&lt;h2&gt;GCP&lt;/h2&gt;
+&lt;p&gt;完成注册后，&lt;strong&gt;大概率&lt;/strong&gt;会让你提供信用卡的照片，就像这样👇&lt;/p&gt;
+&lt;p&gt;&lt;figure style="flex: 107.02341137123746" &gt;&lt;img width="1920" height="897" src="https://cdn.jsdelivr.net/gh/cattomgithub/Blog@gh-pages/archives/assets/bee15074516985a7c6e1f77687d12b7e.png" /&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;如果你不是用自己的信用卡的话，基本无解。&lt;/p&gt;
+&lt;p&gt;或者，如果你 PS 技术高超，那也可以尝试在网上找图片自己修改一下。&lt;/p&gt;
+&lt;div class="notice"&gt;小结：GCP的风控手段相比其他 IDC 来说，算是比较宽松的了，只要你能过“二验”，基本上问题不大&lt;/div&gt;&lt;h2&gt;AWS&lt;/h2&gt;
+&lt;p&gt;AWS 风控主要是分为&lt;strong&gt;注册时&lt;/strong&gt;和&lt;strong&gt;注册后&lt;/strong&gt;。&lt;/p&gt;
+&lt;h3&gt;注册时：付款信息存在问题&lt;/h3&gt;
+&lt;p&gt;错误提示：&lt;strong&gt;错误: 您的付款信息存在问题&lt;/strong&gt;，就像这样👇&lt;/p&gt;
+&lt;p&gt;&lt;figure style="flex: 109.10543130990415" &gt;&lt;img width="1366" height="626" src="https://cdn.jsdelivr.net/gh/cattomgithub/Blog@gh-pages/archives/assets/e51848a4265617fde1247089038acfec.png" /&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;解决办法：按照提示，用英语发工单。&lt;/p&gt;
+&lt;p&gt;过程中可能会需要你提供各种资料，成功几率不大...&lt;/p&gt;
+&lt;h3&gt;注册后：要求提交各种资料&lt;/h3&gt;
+&lt;p&gt;注册后一段时间可能会收到 AWS 官方发来的邮件，下面是一个例子👇&lt;/p&gt;
+&lt;p&gt;&lt;figure style="flex: 106.38297872340425" &gt;&lt;img width="800" height="376" src="https://cdn.jsdelivr.net/gh/cattomgithub/Blog@gh-pages/archives/assets/78c219521a846e7d9182ce6961ed5321.jpg" /&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;解决办法：可以到网上找账单文档模板（必须是英文的），然后自行修改，一定要保证文档内的身份信息和你注册时提供的资料相符。&lt;/p&gt;
+&lt;div class="notice"&gt;小结：目前来看，AWS的风控是最严的，而且有愈来愈严格的趋势。估计是前段时间被薅得太严重了...&lt;/div&gt;&lt;p&gt;&lt;figure style="flex: 266.86746987951807" &gt;&lt;img width="443" height="83" src="https://cdn.jsdelivr.net/gh/cattomgithub/Blog@gh-pages/archives/assets/b4fe962c2962e21fc383ab6924b4ebba.png" /&gt;&lt;figcaption&gt;可见一斑&lt;/figcaption&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;h2&gt;阿里云国际&lt;/h2&gt;
+&lt;p&gt;阿里云国际注册比较困难，但也是有办法的，下面提供一种思路。&lt;/p&gt;
+&lt;p&gt;鉴于阿里云目前支持信用卡和 PayPal 验证，&lt;/p&gt;
+&lt;p&gt;如果信用卡验证不顺利的话，我们可以考虑 PayPal 验证。&lt;/p&gt;
+&lt;p&gt;下面说说大概步骤：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;注册一个 PayPal 账号&lt;br&gt;
+&lt;em&gt;注意：PayPal 账号注册的区域最好与阿里云注册时选择的区域一致。注册时使用的手机号码最好与阿里云注册时使用的手机号码一致。&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;绑定 PayPal 账号&lt;/li&gt;
+&lt;li&gt;成功（不一定...&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;Azure&lt;/h2&gt;
+&lt;p&gt;Azure 目前我没有尝试过使用信用卡注册，如果信用卡验证不顺利的话，可以考虑注册学生优惠（需要 EDU 邮箱）&lt;/p&gt;
+&lt;h1&gt;最后：白嫖前的准备和一些需要注意的地方&lt;/h1&gt;
+&lt;div class="notice"&gt;以下全为本人的一己之见。&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;一个灵活的脑子&lt;/li&gt;
+&lt;li&gt;一个梯子（最好是线路齐全一些的，有时候注册一些东西的时候可能需要特定地区的线路）&lt;/li&gt;
+&lt;li&gt;一个虚拟电话卡（最好是 Google Voice）&lt;/li&gt;
+&lt;li&gt;虚拟信用卡（这个最好是需要用的时候再注册/购买）&lt;/li&gt;
+&lt;li&gt;善用 Google 和 Baidu&lt;/li&gt;
+&lt;li&gt;注册的时候记得打开浏览器的&lt;strong&gt;无痕模式&lt;/strong&gt;，或者清理一下 Cookies&lt;/li&gt;
+&lt;li&gt;之前注册已经用过的邮箱和电话号码就不要再用了，避免风控。&lt;/li&gt;
+&lt;li&gt;准备一套&lt;a href="https://51.ruyo.net/%E8%99%9A%E6%8B%9F%E8%BA%AB%E4%BB%BD%E4%BF%A1%E7%94%A8%E5%8D%A1%E7%94%9F%E6%88%90/"&gt;外国人的资料&lt;/a&gt;，注册时个人资料和账单信息最好不要有出入&lt;/li&gt;
+&lt;/ul&gt;
+</description><author>linweijie2015@gmail.com (Cat Tom)</author><guid isPermaLink="true">/archives/clip-coupons/</guid><pubDate>Tue, 21 Apr 2020 09:45:00 +0806</pubDate></item></channel></rss>
