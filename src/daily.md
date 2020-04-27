@@ -7,6 +7,8 @@ status: publish
 author: Cat Tom
 categories: 
   - 页面
+tags: 
+  - 日常
 ---
 [notice]日记。不定期更新。[/notice]
 
