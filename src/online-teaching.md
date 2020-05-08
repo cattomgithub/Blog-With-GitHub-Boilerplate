@@ -13,3 +13,9 @@ tags:
 excerpt: 网课真有（ma）趣（fan）！
 ---
 # Day 0
+
+## 失败的班会
+
+![](./images/online-teaching-001.jpg)
+
+## 1

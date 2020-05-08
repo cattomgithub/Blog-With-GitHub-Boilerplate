@@ -12,7 +12,9 @@ tags:
 excerpt: 本文会按照时间记录江心市的城建历程。
 ---
 [notice]本文会按照时间记录江心市的城建历程。[/notice]
+
 ## 江心风景
+
 [photos]
 ![横跨南江的江心大桥](./images/cities-skylines-002.jpg)
 ![从明德区回望同德区](./images/cities-skylines-005.jpg)
@@ -48,7 +50,9 @@ excerpt: 本文会按照时间记录江心市的城建历程。
 [photos]
 ![从工业区回望市区](./images/cities-skylines-003.jpg)
 [/photos]
+
 ## 简单介绍
+
 ![从空中鸟瞰江心市](./images/cities-skylines-016.jpg)
 简单介绍一下江心市。
 
