@@ -44,7 +44,7 @@ nav = [
         "target": "_self"
     },
     {
-        "name": "碎碎念",
+        "name": "日记",
         "url": "${site_prefix}daily/",
         "target": "_self"
     },
